@@ -32,8 +32,8 @@ and here is mobile version screenshot: ![](./assets/mobile-screenshot.JPG)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Aleqsa123/elearning]
+- Live Site URL: [https://aleqsa123.github.io/elearning/]
 
 ## My process
 
