@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-size: 10px;
+}
+
+body {
+    background: #FFFFFF;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+header {
+    grid-template-columns: 34.3rem;
+    display: grid;
+    margin-top: 1.6rem;
+    margin-right: 1.6rem;
+    margin-left: 1.6rem;
+}
+
+main {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    display: grid;
+    row-gap: 4rem;
+    padding: 1.6rem;
+    padding-bottom: 8rem;
+}
+
+footer {
+    height: 12rem;
+    width: 37.5rem;
+    background: #13183F;
+    grid-template-columns: 34.3rem;
+    display: grid;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+}
+
+.headliner {
+    height: 12rem;
+    width: 34.3rem;
+    border-radius: 1rem;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    padding: 2.4rem 2.9rem 3.2rem 2.8rem;
+}
+
+div {
+    height: 25.9rem;
+    width: 34.3rem;
+    top: 2.4rem;
+    border-radius: 1rem;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    padding-left: 2.8rem;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+    top: 0rem;
+    border-radius: 0rem;
+    background: #FFFFFF;
+    box-shadow: none;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    padding-left: 0rem;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+    top: 0rem;
+    border-radius: 0rem;
+    background: #13183F;
+    box-shadow: none;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    padding-left: 0rem;
+}
+
+/*Headings and paragraphs*/
+
+h1 {
+    height: 10.1rem;
+    width: 34.3rem;
+    left: 1.6rem;
+    top: 10.2rem;
+    font-weight: 800;
+    font-size: 4rem;
+    line-height: 5rem;
+    color: #13183F;   
+    margin-top: 3.8rem; 
+}
+
+h2 {
+    height: 6.4rem;
+    width: 28.6rem;
+    left: 2.8rem;
+    top: 2.4rem;
+    font-weight: 800;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    color: #FFFFFF;
+}
+
+header .logo {
+    height: 3.5rem;
+    width: 8.9rem;
+    left: 0rem;
+    top: 0.6rem;
+
+}
+
+footer .logo {
+    height: 3.5rem;
+    width: 8.9rem;
+    left: 0rem;
+    top: 0.7rem;
+}
+
+h3 {
+    height: 2.5rem;
+    width: 10.1rem;
+    left: 2.8rem;
+    top: 8rem;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: #13183F;
+    
+}
+
+header p {
+    height: 7.8rem;
+    width: 34.3rem;
+    left: 1.6rem;
+    top: 22.9rem;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #83869A;  
+    margin-top: 2.6rem;  
+}
+
+p {
+    height: 7.8rem;
+    width: 28.6rem;
+    left: 2.8rem;
+    top: 12.1rem;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #83869A;
+    margin-top: 1.6rem;
+    margin-bottom: 2.4rem;
+}
+
+main a {
+    height: 2.8rem;
+    width: 10.4rem;
+    left: 2.8rem;
+    top: 22.3rem;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: #F74780;
+    text-decoration: none;
+}
+
+img {
+    position: relative;
+    top: -2.8rem;
+}
+
+.hero {
+    position: static;
+    margin-top: 4.6rem;
+}
+
+/*Buttons*/
+
+.button1 {
+    height: 4.8rem;
+    width: 14rem;
+    border-radius: 2.8rem;
+    border: 0px solid transparent;
+    background: #13183F;
+}
+
+.button2 {
+    height: 5.6rem;
+    width: 16.7rem;
+    border-radius: 3.15rem;
+    border: 0px solid transparent;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-color: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+
+.button3 {
+    height: 4.8rem;
+    width: 14rem;
+    border: 0px solid transparent;
+    border-radius: 2.8rem;
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+}
+
+.start1 {
+    height: 2.8rem;
+    width: 9.2rem;
+    left: 2.4rem;
+    top: 0.9rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    color: #FFFFFF;
+    text-decoration: none;  
+}
+
+.start2 {
+    height: 2.6rem;
+    width: 9.2rem;
+    left: 3.8rem;
+    top: 1.5rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #FFFFFF;
+    text-decoration: none;      
+}
+
+.start3 {
+    height: 2.8rem;
+    width: 9.2rem;
+    left: 2.4rem;
+    top: 0.9rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    color: #FFFFFF;
+    text-decoration: none;       
+}
+
+
+/*
+
+/* Breakpoint at 768px */
+
+@media screen and (min-width: 768px) {
+    header {
+        display: grid;
+        grid-template-columns: 1fr 280px;
+        grid-template-rows: repeat(4, auto);
+        margin-top: 2.4rem;
+        padding-right: 4rem;
+        padding-left: 3.9rem;
+        background-image: url(./assets/image-hero-tablet.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top -6.5rem right -28.5rem;
+    }
+    
+    main {
+        background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+        grid-template-columns: 1fr 1fr;
+        row-gap: 5.6rem;
+        column-gap: 1.1rem;
+        margin-top: 2.4rem;
+        padding-right: 4rem;
+        padding-left: 3.9rem;
+        padding-bottom: 8.6rem;
+    }
+    
+    footer {
+        width: 76.8rem;
+        padding-left: 4rem;
+        padding-right: 3.9rem;
+    }
+    
+    .headliner {
+        height: 25.9rem;
+        width: 33.9rem;
+        border-radius: 1rem;
+        padding: 5.6rem 2.1rem 13.9rem 3.2rem;
+    }
+    
+    div {
+        width: 34rem;
+        height: 25.9rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        padding-left: 3.2rem;
+    }
+    
+    .top,
+    .bottom {
+        grid-column: 1 / 3;
+    }
+    
+    /*Headings and paragraphs*/
+    
+    h1 {
+        grid-column: 1;
+        grid-row: 2;
+        width: 32.6rem;
+        line-height: 5.04rem;
+        margin-top: 10.5rem; 
+    }
+    
+    h2 {
+        height: 6.4rem;
+        width: 28.6rem;
+        left: 2.8rem;
+        top: 2.4rem;
+        font-weight: 800;
+        font-size: 2.4rem;
+        line-height: 3.2rem;
+        color: #FFFFFF;
+    }
+    
+    h3 {
+        width: 8.7rem;
+        left: 3.2rem;
+        line-height: 2.52rem;
+    }
+    
+    header p {
+        grid-column: 1;
+        grid-row: 3;
+        width: 39.8rem;
+        top: 12.6rem;
+        margin-top: 2.5rem;  
+    }
+    
+    p,
+    main a {
+        left: 3.2rem;
+    }
+
+    .hero {
+        display: none;
+    }
+    
+    /*Buttons*/
+    
+
+    .button2 {
+        grid-column: 1;
+        grid-row: 4;
+        margin-top: 2.4rem;
+        margin-bottom: 20.1rem;
+    }
+
+/* Breakpoint at 1440px */
+
+@media screen and (min-width: 1100px) {
+    header {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(5, auto);
+        padding-right: 16.5rem;
+        padding-left: 16.5rem;
+        background-image: url(./assets/image-hero-desktop.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top -13rem right -32rem;
+    }
+    
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 8rem;
+        column-gap: 3rem;
+        padding-right: 16.5rem;
+        padding-left: 16.5rem;
+        padding-bottom: 14rem;
+    }
+    
+    footer {
+        width: 144rem;
+        padding-left: 16.5rem;
+        padding-right: 16.5rem;
+    }
+    
+    .headliner {
+        height: 32.2rem;
+        width: 35rem;
+        border-radius: 1.5rem;
+        padding: 6.4rem 3.2rem 13.8rem 3.2rem;
+    }
+    
+    div {
+        height: 32.2rem;
+        width: 35rem;
+        left: 54.5rem;
+        top: 86.1rem;
+        border-radius: 1.5rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        padding-left: 3.2rem;
+    }
+    
+    .top,
+    .bottom {
+        grid-column: 1 / 4;
+    }
+    
+    /*Headings and paragraphs*/
+    
+    h1 {
+        grid-column: 1;
+        grid-row: 2/3;
+        width: 45.7rem;
+        font-size: 5.6rem;
+        line-height: 7.1rem;
+        margin-top: 18.557rem; 
+    }
+    
+    h2 {
+        height: 12rem;
+        left: 3.2rem;
+        top: 6.4rem;
+        font-size: 3.2rem;
+        line-height: 4rem;
+    }
+    
+  
+    h3 {
+        height: 3rem;
+        width: 12.1rem;
+        left: 0rem;
+        top: 0rem;
+        line-height: 3.024rem;
+        font-size: 2.4rem;
+    }
+    
+    header p {
+        grid-column: 1;
+        grid-row: 3/4;
+        height: 8.4rem;
+        width: 44.5rem;
+        left: 0rem;
+        top: 17.2rem;
+        margin-top: 7.2rem;  
+    }
+    
+    p {
+        height: 8.4rem;
+        width: 28.6rem;
+        top: 5.4rem;
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+        margin-top: 2.4rem;
+        margin-bottom: 5.4rem;
+    }
+
+
+    main a {
+        height: 2.8rem;
+        width: 10.4rem;
+        left: 0rem;
+        top: 19rem;
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+    }
+
+    main a:hover {
+        color: #FFA7C3;
+    }
+    
+    /*Buttons*/
+    
+    .button1:hover {
+        background: #666CA3;
+    }
+
+    .button2:hover {
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    }
+
+    .button3:hover {
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    }
+
+    .button2 {
+        grid-column: 1;
+        grid-row: 5;
+        margin-top: 4rem;
+        margin-bottom: 25rem;
+    }
+}
