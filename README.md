@@ -26,9 +26,9 @@ I completed this challenge and users are able to:
 
 ### Screenshot
 
-This is a screenshot of desktop version of the site: ![](./main/assets/desktop-screenshot.JPG)
-and this is tablet version: ![](./main/assets/tablet-screenshot.JPG)
-and here is mobile version screenshot: ![](./main/assets/mobile-screenshot.JPG)
+This is a screenshot of desktop version of the site: ![](./assets/desktop-screenshot.JPG)
+and this is tablet version: ![](./assets/tablet-screenshot.JPG)
+and here is mobile version screenshot: ![](./assets/mobile-screenshot.JPG)
 
 ### Links
 
